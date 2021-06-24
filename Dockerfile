@@ -1,6 +1,6 @@
 FROM justifiably/alpine-libc32
 
-ARG PUID=1057
+ARG PUID=1029
 ADD MusicMixer_x86_1.8.tgz /opt
 ADD index.html /opt/MusicIP/MusicMagicMixer/server
 RUN apk --no-cache add su-exec && \
